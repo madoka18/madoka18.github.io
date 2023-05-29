@@ -1,21 +1,10 @@
-
-p, 
-ul {
-  border: 2px solid rebeccapurple;
-  padding: .5em;
-}
-
-.block,
-li {
-  border: 2px solid blue;
-  padding: .5em;
-}
-
-ul {
+.box {
   display: flex;
-  list-style: none;
+  flex-wrap: wrap;
+  row-gap: 10px;
+  column-gap: 2em;
 }
 
-.block {
-  display: block;
-}      
+.box > * {
+  flex: 1;
+}
