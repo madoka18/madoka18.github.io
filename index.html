@@ -1,19 +1,36 @@
-<html>
-<head>
-<title>madoka</title>
-<link rel="stylesheet" 
-body {
-    background-image: url('stars.gif');
-    cursor: url('normal.cur'), auto;
-}
-<link rel="stylesheet" type= "text/css" href="style.css">
-     </head>
+<!DOCTYPE html>
 <html>
 <head>
 <style>
-<div class="card">
-  <p>A glass-like card to demonstrate the <strong>Glassmorphism UI design</strong> trend.</p>
-  <p class="card-footer">Created by Rahul C.</p>
+.flex-container {
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: DodgerBlue;
+}
+
+.flex-container > div {
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+</style>
+</head>
+<body>
+<h1>Flexible Boxes</h1>
+
+<div class="flex-container">
+  <div>1</div>
+  <div>2</div>
+  <div>3</div>  
+  <div>4</div>
+  <div>5</div>
+  <div>6</div>  
+  <div>7</div>
+  <div>8</div>
 </div>
+
 </body>
 </html>
